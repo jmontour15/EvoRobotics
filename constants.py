@@ -12,3 +12,12 @@ BackLeg_phaseOffset = 0
 FrontLeg_amplitude = np.pi/3
 FrontLeg_frequency = 15
 FrontLeg_phaseOffset = np.pi/6
+
+numberOfGenerations = 10
+populationSize = 10
+
+numSensorNuerons = 4
+numHiddenNeurons = 8
+numMotorNeurons = 8
+
+motorJointRange = 0.2

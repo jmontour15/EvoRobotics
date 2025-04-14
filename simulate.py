@@ -6,8 +6,11 @@ import pybullet_data
 import pyrosim.pyrosim as pyrosim
 import random
 import time
+import sys
 
 from simulation import SIMULATION
 
-simulation = SIMULATION()
+simulation = SIMULATION(directOrGUI = sys.argv[1], solutionID = sys.argv[2])
 simulation.Run()
+simulation.Get_Fitness()
+
